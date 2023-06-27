@@ -22,7 +22,9 @@ h1 {
     font-weight: 500;
     color: #09214b;
     margin-right: 10px;
+    margin-left: 10px;
     text-decoration: none;
+    justify-content: flex-end;
 }
 
 .item-menu:hover {
