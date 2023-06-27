@@ -15,15 +15,20 @@ h1 {
 }
 
 .itens-menu {
-    float: right;
-    display: block;
-    text-align: right;
+    justify-content: flex-end;
 }
 
 .item-menu {
     font-weight: 500;
-    color: #304871;
-    margin-right: 5px;
+    color: #09214b;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.item-menu:hover {
+    font-weight: 500;
+    color: #A8DBFA;
+    margin-right: 10px;
     text-decoration: none;
 }
 
